@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivy">
+<!--    first last add dist st phno-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pfstname"
+            android:text="First Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/plstname"
+            android:text="Last Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/paddrs"
+            android:text="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/pdist"
+            android:text="District"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/pst"
+            android:text="State"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/pPno"
+            android:text="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

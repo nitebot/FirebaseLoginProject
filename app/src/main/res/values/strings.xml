@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Firebase Login Project</string>
+    <string-array name="Sports">
+        <item>BasketBall</item>
+        <item>FootBall</item>
+        <item>Cricket</item>
+        <item>VollyBall</item>
+        <item>Hockey</item>
+    </string-array>
+</resources>
